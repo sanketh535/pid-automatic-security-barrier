@@ -4,13 +4,6 @@
 // ============================================================
 // PID AUTOMATIC SECURITY BARRIER
 // ESP32 + HC-SR04 + AS5600 + SG90 servo
-//
-// IMPORTANT ASSUMPTION:
-// The AS5600 angle must increase in the same direction as the
-// servo angle, and its 0-degree position must correspond to the
-// servo's 0-degree reference. This version intentionally has no
-// sensor calibration offsets or reference-classification ranges.
-// ============================================================
 
 // ---------------- PIN CONFIGURATION ----------------
 #define TRIG_PIN    5
